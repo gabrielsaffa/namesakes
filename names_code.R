@@ -1,5 +1,5 @@
 #########################################################################################
-### R code for: Parental Investment is Biased Toward Children Carrying Paternal Names ###
+### R code for: Parental Investment Is Biased toward Children Named for Their Fathers ###
 
 
 setwd ("")
