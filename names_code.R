@@ -39,7 +39,7 @@ names_imp_vals$emotional.m <- rowSums (names_imp_vals[,49:54]) # emotional warmt
 names_imp_vals$emotional.f <- rowSums (names_imp_vals[,55:60]) # emotional warmth - father
 
 names_imp_vals <- names_imp_vals[,-c(17:60)] # drop unnecessary columns
-names_imp_vals$sex <- ifelse (names_imp_vals$sex==1,1,0) # record sex to males=1, females=0
+names_imp_vals$sex <- ifelse (names_imp_vals$sex==1,1,0) # recode sex to males=1, females=0
 names_imp_vals$sex.orient.bin <- as.factor(names_imp_vals$sex.orient) # create an indicator variable for sexual orientation
 levels(names_imp_vals$sex.orient.bin) <- list("0"=c("1","2","3"), "1"=c("4","5","6","7"))
 
